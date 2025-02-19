@@ -1,0 +1,204 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "nova:Function",
+    "label" : "Visualization-2D"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "nova:Function",
+    "label" : "Analytics"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "nova:Function",
+    "label" : "Beautification"
+  }, {
+    "@id" : "_:b11",
+    "@type" : "nova:Function",
+    "label" : "Compositing"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "nova:Function",
+    "label" : "Asset Management"
+  }, {
+    "@id" : "_:b13",
+    "@type" : "nova:Function",
+    "label" : "Generative AI"
+  }, {
+    "@id" : "_:b14",
+    "@type" : "nova:Function",
+    "label" : "Video Timing"
+  }, {
+    "@id" : "_:b15",
+    "@type" : "nova:Function",
+    "label" : "2D to 3D"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "nova:Function",
+    "label" : "Motion Capture"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "nova:Function",
+    "label" : "2D to Animation"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "nova:Function",
+    "label" : "Localization"
+  }, {
+    "@id" : "_:b5",
+    "@type" : "nova:Function",
+    "label" : "Video Analysis"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "nova:Function",
+    "label" : "Audio Casting"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "nova:Function",
+    "label" : "Security"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "nova:Function",
+    "label" : "Correction"
+  }, {
+    "@id" : "_:b9",
+    "@type" : "nova:Function",
+    "label" : "Upscaling"
+  }, {
+    "@id" : "vocab:AudioModel",
+    "@type" : "nova:Vocab",
+    "rdf:label" : "Audio Model",
+    "hasConceptScheme" : "vocab:ModelType",
+    "prefLabel" : "Audio Model"
+  }, {
+    "@id" : "vocab:ComputerVision",
+    "@type" : "nova:Vocab",
+    "rdf:label" : "Computer Vision",
+    "hasConceptScheme" : "vocab:ModelType",
+    "prefLabel" : "Computer Vision"
+  }, {
+    "@id" : "vocab:Graph",
+    "@type" : "nova:Vocab",
+    "rdf:label" : "Graph",
+    "prefLabel" : "Graph"
+  }, {
+    "@id" : "vocab:ModelType",
+    "@type" : "skos:ConceptScheme",
+    "rdf:label" : "Model Type"
+  }, {
+    "@id" : "vocab:NLP",
+    "@type" : "nova:Vocab",
+    "rdf:label" : "Natural Language Processing",
+    "altLabel" : "NLP",
+    "hasConceptScheme" : "vocab:ModelType",
+    "prefLabel" : "Natural Language Processing"
+  }, {
+    "@id" : "vocab:Tabular",
+    "@type" : "nova:Vocab",
+    "rdf:label" : "Tabular",
+    "prefLabel" : "Tabular"
+  }, {
+    "@id" : "vocab:multimodal",
+    "@type" : "nova:Vocab",
+    "rdf:label" : "Multimodal",
+    "hasConceptScheme" : "vocab:ModelType",
+    "prefLabel" : "Multimodal"
+  }, {
+    "@id" : "http://data.disney.com/nova",
+    "@type" : "owl:Ontology"
+  }, {
+    "@id" : "nova:DataSet",
+    "@type" : "owl:Class",
+    "rdf:label" : "Dataset"
+  }, {
+    "@id" : "nova:FineTuningData",
+    "@type" : "owl:Class",
+    "rdf:label" : "Fine Tuning Data",
+    "SubClassOf" : "nova:Dataset",
+    "subClassOf" : "nova:DataSet"
+  }, {
+    "@id" : "nova:Function",
+    "@type" : "owl:Class",
+    "rdf:label" : "Model"
+  }, {
+    "@id" : "nova:Model",
+    "@type" : "owl:Class",
+    "rdf:label" : "Model"
+  }, {
+    "@id" : "nova:Organization",
+    "@type" : "skos:ConceptScheme",
+    "rdf:label" : "Organization"
+  }, {
+    "@id" : "nova:PreTrainingSet",
+    "@type" : "owl:Class",
+    "rdf:label" : "Pre-Training Set",
+    "SubClassOf" : "nova:Dataset",
+    "subClassOf" : "nova:DataSet"
+  }, {
+    "@id" : "nova:ResultData",
+    "@type" : "owl:Class",
+    "rdf:label" : "ResultData",
+    "SubClassOf" : "nova:Dataset",
+    "subClassOf" : "nova:DataSet"
+  }, {
+    "@id" : "nova:Solution",
+    "@type" : "owl:Class",
+    "rdf:label" : "Solution"
+  }, {
+    "@id" : "nova:Test",
+    "@type" : "owl:Class",
+    "rdf:label" : "Test"
+  }, {
+    "@id" : "nova:Vocab",
+    "@type" : "owl:Class",
+    "rdf:label" : "Vocabulary"
+  }, {
+    "@id" : "nova:Workflow",
+    "@type" : "owl:Class",
+    "label" : "Workflow",
+    "subClassOf" : "owl:Thing"
+  } ],
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "hasConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasConceptScheme",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "SubClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#SubClassOf",
+      "@type" : "@id"
+    },
+    "country" : "http://eulersharp.sourceforge.net/2003/03swap/countries#",
+    "loc" : "http://data.disney.com/location#",
+    "tagging" : "http://data.disney.com/tagging#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "cast" : "http://data.disney.com/castCrew#",
+    "character" : "http://data.disney.com/character#",
+    "ctam" : "http://data.disney.com/ctam#",
+    "music" : "http://data.disney.com/music#",
+    "cw" : "http://data.disney.com/creativeWork#",
+    "scar" : "http://data.disney.com/scart#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "serial" : "http://data.disney.com/serialWork#",
+    "dailies" : "http://data.disney.com/dailies#",
+    "vocab" : "http://data.diseny.com/nova/vocab#",
+    "mani" : "http://data.disney.com/manifestation#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "nova" : "http://data.disney.com/nova#",
+    "story" : "http://data.disney.com/storyContent#"
+  }
+}

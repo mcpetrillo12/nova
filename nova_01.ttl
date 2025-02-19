@@ -1,0 +1,179 @@
+# baseURI: http://data.disney.com/nova
+# prefix: nova
+
+@prefix cast: <http://data.disney.com/castCrew#> .
+@prefix character: <http://data.disney.com/character#> .
+@prefix country: <http://eulersharp.sourceforge.net/2003/03swap/countries#> .
+@prefix ctam: <http://data.disney.com/ctam#> .
+@prefix cw: <http://data.disney.com/creativeWork#> .
+@prefix dailies: <http://data.disney.com/dailies#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix loc: <http://data.disney.com/location#> .
+@prefix mani: <http://data.disney.com/manifestation#> .
+@prefix music: <http://data.disney.com/music#> .
+@prefix nova: <http://data.disney.com/nova#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix scar: <http://data.disney.com/scart#> .
+@prefix serial: <http://data.disney.com/serialWork#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix story: <http://data.disney.com/storyContent#> .
+@prefix tagging: <http://data.disney.com/tagging#> .
+@prefix vocab: <http://data.diseny.com/nova/vocab#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+vocab:AudioModel
+  rdf:type nova:Vocab ;
+  rdf:label "Audio Model" ;
+  skos:hasConceptScheme vocab:ModelType ;
+  skos:prefLabel "Audio Model" ;
+.
+vocab:ComputerVision
+  rdf:type nova:Vocab ;
+  rdf:label "Computer Vision" ;
+  skos:hasConceptScheme vocab:ModelType ;
+  skos:prefLabel "Computer Vision" ;
+.
+vocab:Graph
+  rdf:type nova:Vocab ;
+  rdf:label "Graph" ;
+  skos:prefLabel "Graph" ;
+.
+vocab:ModelType
+  rdf:type skos:ConceptScheme ;
+  rdf:label "Model Type" ;
+.
+vocab:NLP
+  rdf:type nova:Vocab ;
+  rdf:label "Natural Language Processing" ;
+  skos:altLabel "NLP" ;
+  skos:hasConceptScheme vocab:ModelType ;
+  skos:prefLabel "Natural Language Processing" ;
+.
+vocab:Tabular
+  rdf:type nova:Vocab ;
+  rdf:label "Tabular" ;
+  skos:prefLabel "Tabular" ;
+.
+vocab:multimodal
+  rdf:type nova:Vocab ;
+  rdf:label "Multimodal" ;
+  skos:hasConceptScheme vocab:ModelType ;
+  skos:prefLabel "Multimodal" ;
+.
+nova:DataSet
+  rdf:type owl:Class ;
+  rdf:label "Dataset" ;
+.
+nova:FineTuningData
+  rdf:type owl:Class ;
+  rdf:label "Fine Tuning Data" ;
+  rdfs:SubClassOf nova:Dataset ;
+  rdfs:subClassOf nova:DataSet ;
+.
+nova:Function
+  rdf:type owl:Class ;
+  rdf:label "Model" ;
+.
+nova:Model
+  rdf:type owl:Class ;
+  rdf:label "Model" ;
+.
+nova:Organization
+  rdf:type skos:ConceptScheme ;
+  rdf:label "Organization" ;
+.
+nova:PreTrainingSet
+  rdf:type owl:Class ;
+  rdf:label "Pre-Training Set" ;
+  rdfs:SubClassOf nova:Dataset ;
+  rdfs:subClassOf nova:DataSet ;
+.
+nova:ResultData
+  rdf:type owl:Class ;
+  rdf:label "ResultData" ;
+  rdfs:SubClassOf nova:Dataset ;
+  rdfs:subClassOf nova:DataSet ;
+.
+nova:Solution
+  rdf:type owl:Class ;
+  rdf:label "Solution" ;
+.
+nova:Test
+  rdf:type owl:Class ;
+  rdf:label "Test" ;
+.
+nova:Vocab
+  rdf:type owl:Class ;
+  rdf:label "Vocabulary" ;
+.
+nova:Workflow
+  rdf:type owl:Class ;
+  rdfs:label "Workflow" ;
+  rdfs:subClassOf owl:Thing ;
+.
+[
+  rdf:type nova:Function ;
+  rdfs:label "2D to 3D" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "2D to Animation" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Analytics" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Asset Management" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Audio Casting" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Beautification" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Compositing" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Correction" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Generative AI" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Localization" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Motion Capture" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Security" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Upscaling" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Video Analysis" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Video Timing" ;
+].
+[
+  rdf:type nova:Function ;
+  rdfs:label "Visualization-2D" ;
+].
