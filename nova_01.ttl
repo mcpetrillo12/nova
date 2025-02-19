@@ -62,6 +62,25 @@ vocab:multimodal
   skos:hasConceptScheme vocab:ModelType ;
   skos:prefLabel "Multimodal" ;
 .
+nova:AccuracyTest
+  rdf:type owl:Class ;
+  rdfs:subClassOf nova:Test ;
+.
+nova:BiasTest
+  rdf:type owl:Class ;
+  rdfs:label "Bias test" ;
+  rdfs:subClassOf nova:Test ;
+.
+nova:CompLing
+  rdf:type owl:Class ;
+  rdfs:label "Comp ling" ;
+  rdfs:subClassOf nova:Model ;
+.
+nova:ContentQualityTest
+  rdf:type owl:Class ;
+  rdfs:label "Content quality test" ;
+  rdfs:subClassOf nova:Test ;
+.
 nova:DataSet
   rdf:type owl:Class ;
   rdf:label "Dataset" ;
@@ -76,9 +95,34 @@ nova:Function
   rdf:type owl:Class ;
   rdf:label "Model" ;
 .
+nova:HumanEvaluationTest
+  rdf:type owl:Class ;
+  rdfs:label "Human evaluation test" ;
+  rdfs:subClassOf nova:Test ;
+.
+nova:LLM
+  rdf:type owl:Class ;
+  rdfs:label "LLM" ;
+  rdfs:subClassOf nova:Model ;
+.
+nova:LanguageQualityTest
+  rdf:type owl:Class ;
+  rdfs:label "Language quality test" ;
+  rdfs:subClassOf nova:Test ;
+.
+nova:ML
+  rdf:type owl:Class ;
+  rdfs:label "ML" ;
+  rdfs:subClassOf nova:Model ;
+.
 nova:Model
   rdf:type owl:Class ;
   rdf:label "Model" ;
+.
+nova:NeuralNet
+  rdf:type owl:Class ;
+  rdfs:label "Neural net" ;
+  rdfs:subClassOf nova:Model ;
 .
 nova:Organization
   rdf:type skos:ConceptScheme ;
@@ -112,6 +156,20 @@ nova:Workflow
   rdf:type owl:Class ;
   rdfs:label "Workflow" ;
   rdfs:subClassOf owl:Thing ;
+.
+nova:testWith
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain nova:Model ;
+  rdfs:label "test with" ;
+  rdfs:range nova:Test ;
+  owl:inverseOf nova:testsModel ;
+.
+nova:testsModel
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain nova:Test ;
+  rdfs:label "tests model" ;
+  rdfs:range nova:Model ;
+  owl:inverseOf nova:testWith ;
 .
 [
   rdf:type nova:Function ;
