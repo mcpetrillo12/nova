@@ -1,0 +1,52 @@
+id,name,type
+b2027d8e-a766-444a-992d-ff134e588f10,C.Menzies,Person
+226d935b-1675-445d-8c85-2e399f70a4be,F. Barragan,Person
+0b7d9ff8-acd4-4119-bf95-1dc2a282c130,P. Sakthi,Person
+feafaa44-2ed0-4ec6-ad8f-bc6b74fe08da,A.P. Lätt,Person
+f7d0c724-877c-424b-b2d6-f6f0f308d993,M. Maybe,Person
+0f4a55c2-fc1f-4677-a78d-e42c1291c29f,trpakov,Person
+ab165020-9dca-490f-a5eb-344dde4ddb2c,smp111,Person
+ca43cece-1837-4d93-8487-1cf365255f86,dima806,Person
+c090201c-1ee0-4859-b85b-c2529b45486c,akahana,Person
+9e7710a2-116d-4678-911c-2059331f7f16,carlosaguayo,Person
+b4af2650-7b67-4f40-98fe-883352413101,Qihoo360,Person
+b39bae68-1b3e-46b4-aa8a-5900fe8d2b20,Google,Organization
+2b236b9f-4b3b-442a-a3d8-2b000253854a,HistAI,Organization
+6f223b39-1574-4778-9ea1-a5ac9d25909e,Microsoft,Organization
+adbd1864-fd5c-4bc8-9511-d288a691544e,Falcons.ai,Organization 
+067443ad-4269-4cac-8b10-deacae0f5621,Deepmind,Organization
+b7af0a69-8428-48e4-808a-5471d31cb86f,espejelomar,Organization 
+0366e9e4-f9fd-496e-a223-8ea8cb8ced6c,Facebook,Organization
+03a1d020-3ce7-477a-ba87-e18c0d6b2b10,Qwen/Alibaba Cloud,Organization 
+9906a9e5-8383-4046-9626-bb7a71dab061,THUDM/Tsinghua University,Organization 
+5a0f28c0-37a1-4327-b0fb-73129755280f,Black Forest Labs,Organization 
+d0f45402-4de7-461c-b78e-be96f120ea41,Meta-llama/Meta,Organization 
+43b90664-10d7-491c-be86-8324708c839e,Wan-AI,Organization 
+2a7b1985-83f5-44e2-947f-7149f02e1956,Deepseek AI,Organization 
+4a1fccd2-3799-4974-853f-6de12cbccfaa,Allen AI,Organization 
+beb56973-6108-471f-a5cc-c7611f565a5c,Perplexity AI,Organization 
+65243324-edd7-4679-9a49-2226608e5bcd,Nvidia,Organization 
+151349f2-7258-4d57-b30f-edf2ef5f232d,Cohere for AI,Organization 
+4971485e-8008-4d2c-b698-e8a72f956a02,Chandar Lab,Organization 
+8f2fe14d-ed44-4450-bbdb-578820c35fb7,City 96,Organization 
+06138dc2-61b2-4776-bea3-b43519be43a6,Hexgrad,Organization 
+485ba0bc-80b3-4796-b99e-5463fa12b5b0,Stability AI,Organization 
+fe75b825-432c-4588-9d47-a71a0f5e1f49,Convergence AI,Organization 
+87b38ef7-f592-40a3-85af-1fc81eb8fa23,GSAI ML,Organization 
+74eaef18-1fe9-4ef0-991b-ddfb182b28b8,Heidie Sink,Employee
+5a10a704-aa34-46b2-bf22-33be08c76935,Nichol Tappin,Employee
+ccbd3955-7bdd-402d-82f8-3acacfd16d7b,Terri-jo McDuffy,Employee
+f2361fb4-81e7-4078-b20f-4581c5eba31e,Reese Aubrun,Employee
+bed228e3-e9ae-4c6c-b3f4-dcf4bb7230de,Lemmy Armin,Employee
+b2808cad-089a-46f5-b43e-9e602d4a324d,Leonard McNirlin,Employee
+65a57ce5-7c2c-45f4-b5fe-4d7d28492dd9,Fanchon Topper,Employee
+70d707b6-4b00-4089-ab32-9e24ee867e2e,Isaak Olufsen,Employee
+1760a8b8-a434-4be1-a149-5536955c1330,Lyell Castledine,Employee
+84640704-fc9f-45a2-925f-c8d9c41f0917,Nathalie Capun,Employee
+8bae3a4e-5a69-4a49-b290-f31499f34ef0,Bibbie Revey,Employee
+1d3b3d95-8ab1-4b14-b4cb-4861637cbde4,Nevins Jobbins,Employee
+e4fbc03d-dcb0-47f0-9eb9-1520c39705a3,Orren Wheway,Employee
+61df8bca-88eb-44bc-9d80-1e33bea1fd20,Kiley Crosen,Employee
+1d3b3d95-8ab1-4b14-b4cb-4861637cbde4,Dean Loynton,Employee
+e4fbc03d-dcb0-47f0-9eb9-1520c39705a3,Erroll McFaul,Employee
+61df8bca-88eb-44bc-9d80-1e33bea1fd20,Patrice Dei,Employee

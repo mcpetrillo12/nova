@@ -1,0 +1,17 @@
+﻿CogView4-6B,ff218743-4f91-4746-a39d-2658aea56448,Text-to-Image,ML
+DeepSeek-R1,4c7509e1-7efe-4959-a3bb-af3a7cbb2f30,Text Generation,LLM
+DeepSeek-R1-FP4,aa70a77c-bd13-4c47-8d0c-2a3bcccec77c,Text Generation,LLM
+FLUX.1-dev,dba9dc01-3fdc-47dd-b3ec-5202b5a3b1b1,Text-to-Image,ML
+Kokoro-82M,fc58d223-4146-42e8-9e7f-3d975bbf129d,Audio,ML
+LLaDA-8B-Instruct,453d18af-ee06-47c9-9067-6ae8cb76b725,Text Generation,LLM
+Llama-3.3-70B-Instruct,9f78180f-92a9-4d03-8d53-a7d821a22115,Text Generation,LLM
+NeoBERT,61b4cb88-edd3-4d4a-a07a-2c89b0140d2a,Feature Extraction,ML
+phi-4,859178c0-aca0-4369-bacb-ffac6e930c33,Text Generation,LLM
+Phi-4-mini-instruct,88e30e78-dc23-4b38-a707-bf4fd37786d9,Text Generation,LLM
+Phi-4-multimodal-instruct,fd667c6f-d257-4028-b3bb-9cc7ec2416de,MultiModal,ML
+r1-1776,beee6056-b78c-4833-876d-5371535efbed,Text Generation,LLM
+stable-diffusion-3.5-large,29f64840-522a-4412-86c3-c2cfc8751cd1,Text-to-Image,ML
+TinyR1-32B-Preview,b9af7c02-89f7-40db-93c6-c7ab8b6003c5,Text Generation,LLM
+Wan2.1-T2V-1.3B,1348245d-e747-4971-b687-51bf82ababe1,Text-to-Video,ML
+Wan2.1-T2V-14B,3561f47b-b000-4396-99f0-204d0ccf1e64,Text-to-Video,ML
+Wan2.1-T2V-14B-gguf,25ec3ebf-c48c-41f7-ac35-5d90f1f36c86,Text-to-Video,ML
