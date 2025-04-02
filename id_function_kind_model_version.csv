@@ -1,4 +1,4 @@
-id,function,kind,model,version
+id,usage,kind,model,version
 61b4cb88-edd3-4d4a-a07a-2c89b0140d2a,Feature Extraction,ML,NeoBERT,v1
 4c7509e1-7efe-4959-a3bb-af3a7cbb2f30,Text Generation,LLM,DeepSeek,R1
 88e30e78-dc23-4b38-a707-bf4fd37786d9,Text Generation,LLM,Phi,4-mini-instruct
