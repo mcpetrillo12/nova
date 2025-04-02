@@ -1,0 +1,47 @@
+id,function,kind,model,version
+61b4cb88-edd3-4d4a-a07a-2c89b0140d2a,Feature Extraction,ML,NeoBERT,v1
+4c7509e1-7efe-4959-a3bb-af3a7cbb2f30,Text Generation,LLM,DeepSeek,R1
+88e30e78-dc23-4b38-a707-bf4fd37786d9,Text Generation,LLM,Phi,4-mini-instruct
+beee6056-b78c-4833-876d-5371535efbed,Text Generation,LLM,r1-1776,v1
+b9af7c02-89f7-40db-93c6-c7ab8b6003c5,Text Generation,LLM,TinyR1-32B-Preview,v1
+453d18af-ee06-47c9-9067-6ae8cb76b725,Text Generation,LLM,LLaDA,8B-Instruct
+aa70a77c-bd13-4c47-8d0c-2a3bcccec77c,Text Generation,LLM,DeepSeek,R1-FP4
+859178c0-aca0-4369-bacb-ffac6e930c33,Text Generation,LLM,Phi,v4
+9f78180f-92a9-4d03-8d53-a7d821a22115,Text Generation,LLM,LLaMA,3.3-70B-Instruct
+3561f47b-b000-4396-99f0-204d0ccf1e64,Text-to-Video,ML,Wan,2.1-T2V-14B
+1348245d-e747-4971-b687-51bf82ababe1,Text-to-Video,ML,Wan,2.1-T2V-1.3B
+25ec3ebf-c48c-41f7-ac35-5d90f1f36c86,Text-to-Video,ML,Wan,2.1-T2V-14B-gguf
+dba9dc01-3fdc-47dd-b3ec-5202b5a3b1b1,Text-to-Image,ML,FLUX,1-dev
+ff218743-4f91-4746-a39d-2658aea56448,Text-to-Image,ML,CogView,4-6B
+29f64840-522a-4412-86c3-c2cfc8751cd1,Text-to-Image,ML,stable-diffusion-,3.5-large
+fd667c6f-d257-4028-b3bb-9cc7ec2416de,MultiModal,ML,Phi,4-multimodal-instruct
+fc58d223-4146-42e8-9e7f-3d975bbf129d,Text-to-Speech,ML,Kokoro,82M
+8bf053c2-c0a8-4dbd-9bc8-4562e9d1a147,MultiModal,LLM,GPT,v4
+c73edfec-f9ff-4d82-9893-e7dc19fed094,Text Generation,LLM,GPT,v3
+9edba3a1-cb7c-450b-b366-2a4908defe70,Text Generation,LLM,GPT,v3.5
+01a77ffd-be29-408a-a024-372a1ba8a474,Text Generation,LLM,Gemini,v1
+ee7f5474-6a0e-4f22-9067-c81ff00fec66,Text Generation,LLM,PaLM,v2 (Bison-001)
+23ff7a07-325f-4066-a373-2bf2099d4c0e,Text Generation,LLM,Bard,v1
+8ad5430f-8f5a-4cb3-b5c7-f0aa16c1f042,Text Generation,LLM,Claude,v1
+dbd2bca3-077c-4fa9-aceb-8c509f9cc499,Text Generation,LLM,Falcon,v1
+3e3b1eda-c349-4b61-8786-227836af6460,Text Generation,LLM,Cohere Command,
+116cb34e-9099-489e-80a1-a12ef8fa9f1d,MultiModal,LLM,Orca,
+45de837c-4608-49e1-9a0b-3704777b0b79,MultiModal,LLM,Guanaco,65B
+5e254b90-f90d-4782-b620-e982a35d5ccd,Text Generation,LLM,Vicuna,
+807042de-3dcc-4e13-a525-08612fbb34b6,MultiModal,LLM,MPT,30B
+3d4724df-9c43-4172-b0e7-6af7a84c971b,Text Generation,LLM,Lazarus,30B
+22b834a5-680c-4de4-b9fc-5fa4519a6e57,Text Generation,LLM,Flan,T5-large
+5b5c0b7f-a5c2-4b92-adb4-2ddb798a547f,Text Generation,LLM,WizardLM,
+b9a396be-9710-4f37-ab53-64171dd1b738,Text Generation,LLM,Alpaca,7B
+435fbf5f-75b1-48e1-9b3f-434ab3cfe716,Text Generation,LLM,LaMDA,
+65bb4310-cc8f-40fa-b5c1-6475210ccd0b,NLP,LLM,BERT,
+479ac327-bc71-4651-b872-97c21edb8a1b,MultiModal,LLM,CausalLM,72B
+312ea372-81c7-4ac4-9678-6657b2b8b43e,Text Generation,LLM,Mistral,7B
+2a439856-5049-4b4a-a454-d0e43f165847,Text Generation,LLM,OLMo,v2
+db0564eb-4201-4d12-a00b-3dd0975007ff,Text Generation,LLM,Inflection,
+6da4dd4a-108b-43f8-8479-b782a007a4bf,Text Generation,LLM,Tulu,v3
+472093e9-f20e-4681-9a0a-1ec0b52aa449,Text Generation,LLM,OLMoE,
+26973233-ccbf-4a48-8b1b-45bae423324f,MultiModal,ML,Molmo,
+26a39f11-8d45-41cd-b211-ad937c040fd3,MultiModal,Neural,Unified-IO,v1
+1e8ed3ca-41b8-4176-b3d9-7ec665126386,MultiModal,Neural,Unified-IO,v2
+20ec38a8-761f-4af2-a2f7-5c4ddc7011cd,Text-to-Image,Neural,VisProg,v1
